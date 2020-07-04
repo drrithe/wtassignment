@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p.solid { border-style: solid;
+  border-width: medium;
+}
+img{
+  opacity : 0.9;
+  padding: 10px;
+}
+
+.col{
+  float : center;
+}
+.mySlides {display: none;}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.zoom {
+  margin: auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(0.9);
+}
+div.l {
+  line-height: normal;
+}
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+}
+
+div.d {
+  text-align: justify;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-size:70px;
+  transform: translate(-50%, -50%);
+}
+.centered a:hover {
+  background-color: white;
+  color: black;
+}
+.header {
+  overflow: hidden;
+  background-color: #FFFAF0;
+  padding: 20px 10px;
+}
+.footer {
+   background-color: #FFFAF0;
+   color: black;
+   text-align: center;
+   padding: 20px 10px;
+}
+.footer a {
+
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 50px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.footer a:hover {
+  background-color: #000000;
+  color: white;
+}
+
+
+.header a.active {
+  background-color: #000000;
+  color: white;
+}
+.footer a.active {
+  background-color: #000000;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  margin-right: 50px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .column  {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column  {
+    width: 100%;
+  }
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.myDiv {
+
+
+  background-color: #F5EFDC;
+    opacity : 0.9;
+  text-align: center;
+
+  padding: 85px;
+
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src="i.png" class="image" style="width:7% " >
+  <div class="header-right">
+    <a href="file:///C:/Users/dhana/Documents/index.html">Home</a>
+      <a href="file:///C:/Users/dhana/Documents/services.html">Services</a>
+    <a href="file:///C:/Users/dhana/Documents/contact.html">Contact</a>
+    <a href="file:///C:/Users/dhana/Documents/about.html">About</a>
+  </div>
+</div>
+
+
+
+
+
+      <div class="myDiv" style="margin: 25px 60px 45px 85px;">
+<div style=" border: 5px solid black">
+        <h1 >The 70 Greatest Fashion Quotes of All Time</h1>
+      <h3>  <p>It can e difficult to articulate the power of style and fashion through words,</p>
+           <p>but these icons managed to do so with quote-worthy, inspiring words of wisdom to live by.</p>
+           <p>From the greatest fashion designers to legendary models and stylists,</p>
+           <p>get inspired by these 50 quotes that will never go out of style.</p>
+          <p>"Fashion is part of the daily air and it changes all the time, with all the events.</p>
+        <p>  You can even see the approaching of a revolution in clothes.</p>
+          <p>You can see and feel everything in clothes."</p>
+        </h3>
+</div>
+        </div>
+
+
+
+
+<div class="footer">
+  <a  href="#home">Home</a>
+    <a href="#service">Services</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <p><h3>We Design what's best for you.<h3></p>
+    <p><h3>Happy Shopping!!!<h3></p>
+</div>
+
+
+</body>
+</html>
